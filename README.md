@@ -5,7 +5,7 @@ go-c8y-cli extension to set sensible defaults such as views to focus on the impo
 ## What is included?
 
 |Type|Included|Notes|
-|----|-----|-----|
+|----|:-:|-----|
 |Aliases|✅|Some useful default command like `mo <id>`|
 |Templates|🔲||
 |Views|✅|Sensible defaults showing the in-built fragments|
