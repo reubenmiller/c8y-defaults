@@ -8,3 +8,5 @@ settings:
     columnMinWidth: 5
     columnMaxWidth: 80
     columnPadding: 5
+  settings.defaults:
+    pageSize: 20
