@@ -1,0 +1,10 @@
+---
+# yaml-language-server: $schema=https://raw.githubusercontent.com/reubenmiller/go-c8y-cli/v2/tools/schema/session.schema.json
+settings:
+  activitylog:
+    path: "~/.cumulocity/activitylog"
+    enabled: true
+  views:
+    columnMinWidth: 5
+    columnMaxWidth: 80
+    columnPadding: 5

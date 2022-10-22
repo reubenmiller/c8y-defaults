@@ -1,0 +1,27 @@
+{
+    "version": "1",
+    "definitions": [
+        {
+            "name": "session",
+            "priority": 400,
+            "fragments": ["host", "username"],
+            "columns": [
+                "host",
+                "tenant",
+                "username",
+                "path"
+            ]
+        },
+        {
+            "name": "settings",
+            "priority": 500,
+            "fragments": ["settings", "settings.session.home"],
+            "columns": [
+                "session.home",
+                "mode.**",
+                "encryption.enabled",
+                "activitylog.currentPath"
+            ]
+        }
+    ]
+}
