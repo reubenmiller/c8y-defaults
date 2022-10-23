@@ -1,0 +1,21 @@
+{
+    "version": "1",
+    "definitions": [
+        {
+            "name": "extension",
+            "priority": 500,
+            "fragments": [
+                "name",
+                "repo",
+                "pinned",
+                "version"
+            ],
+            "columns": [
+                "name",
+                "pinned",
+                "repo",
+                "version"
+            ]
+        }
+    ]
+}
