@@ -39,6 +39,7 @@
                 "!deviceParents.**",
                 "!creationTime",
                 "!lastUpdated",
+                "!owner",
                 "!self"
             ]
         }
