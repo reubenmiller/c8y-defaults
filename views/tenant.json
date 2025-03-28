@@ -4,7 +4,7 @@
         {
             "name": "tenant",
             "priority": 500,
-            "contentType": "vnd.com.nsn.cumulocity.tenant\\+json",
+            "contentType": "vnd.com.nsn.cumulocity.tenant",
             "columns": [
                 "id",
                 "status",
