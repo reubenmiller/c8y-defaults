@@ -1,0 +1,38 @@
+{
+    "version": "1",
+    "definitions": [
+        {
+            "name": "deviceRegistrationWithPassword",
+            "contentType": "application/vnd.com.nsn.cumulocity.bulknewdevicerequest",
+            "priority": 499,
+            "fragments": [
+                "username",
+                "password"
+            ],
+            "columns": [
+                "id",
+                "username",
+                "password",
+                "name",
+                "type",
+                "authType"
+            ]
+        },
+        {
+            "name": "deviceRegistrationNoPassword",
+            "contentType": "application/vnd.com.nsn.cumulocity.bulknewdevicerequest",
+            "priority": 550,
+            "fragments": [
+                "username"
+            ],
+            "columns": [
+                "id",
+                "username",
+                "name",
+                "type",
+                "authType"
+            ]
+        }
+
+    ]
+}
